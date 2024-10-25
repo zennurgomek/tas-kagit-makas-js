@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "CursiveLucida Handwriting", cursive;
+}
+body {
+  font-family: "CursiveLucida Handwriting", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border: 4px double #1375f6;
+  border-radius: 15px;
+  background-color: white;
+  padding: 80px 200px;
+}
+
+.container h1 {
+  color: #1375f6;
+  margin-bottom: 40px;
+  font-family: "CursiveLucida Handwriting", cursive;
+  font-size: 20px;
+}
+
+.gamer-section {
+  display: flex;
+  gap: 210px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #1375f6;
+}
+.gamer {
+  padding-left: 30px;
+}
+.computer {
+  padding-left: 40px;
+}
+.game-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player-section {
+  border-style:double;
+  border-width: 4px;
+  color: #1375f6;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+.player-section, .computer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.computer-section {
+  padding-left: 100px;
+}
+.player-section {
+  padding-right: 90px;
+}
+.choice-button {
+  margin: 10px 0;
+  padding: 5px 30px;
+  background-color: #8ac4f2;
+  border: 3px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #1375f6;
+}
+/* border kısmını elimden geldigince benzetmeye calıstım ama bu kadar oldu styleini bulamadım */
+.choice-button {
+  font-family: "CursiveLucida Handwriting", cursive;
+}
+
+.score-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.score-section p {
+  font-size: 22px;
+  color: #1375f6;
+ justify-content: center;
+ padding: 0px 50px;
+}
+
+.score-button {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 10px;
+  padding-top: 20px;
+}
+.result-button {
+  background-color: #a7f3a0;
+  padding: 10px 100px;
+  border: 3px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #1375f6;
+}
+
+.reset-button {
+  padding: 10px 100px;
+  border: 3px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 26px;
+  color: #1375f6
+}
+
+.reset-btn:hover {
+  background-color: #2071bb;
+}
